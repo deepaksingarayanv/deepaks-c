@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+    int a,b,add,sub,mult,divi;
+    printf("ENTER A:");
+    scanf("%d",&a);
+    printf("ENTER B:");
+    scanf("%d",&b);
+    add=a+b;
+    sub=a-b;
+    mult=a*b;
+    divi=a/b;
+    printf("\nadd=%d",add);
+    printf("\nsub=%d",sub);
+    printf("\nmult=%d",mult);
+    printf("\ndivi=%d",divi);
+    
+    return 0;
+}
