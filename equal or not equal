@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+int main(){
+    int a,b;
+    printf("Enter first number:");
+    scanf("%d",&a);
+    printf("Enter second number:");
+    scanf("%d",&b);
+    
+    if(a > b)
+    {
+    printf("%d  is maximum",a);
+    }
+    else
+    {
+        printf("%d",b);
+    }
+    if(a < b)
+    {
+    printf(" is maximum");
+    }
+    
+    if(a==b)
+    {
+        printf("the both numbers are equal");
+    }
+    else
+    {
+        printf("\n the given numbers are'nt equal");
+    }
+    
+    return 0;
+}
