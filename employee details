@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+   char charname;
+    int ID;
+    int phone_no;
+    int sal;
+    
+    printf("Enter employee name:");
+    scanf("%c",&charname);
+    printf("\n Enter employee ID:2326j12");
+    printf("\n Enter phone number:423874243");
+    printf("\n Employee salary:12,000");
+    
+    
+
+    return 0;
+}
