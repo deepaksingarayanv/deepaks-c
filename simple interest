@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+    float simple,rate,time,principal;
+    printf("enter rate:");
+    scanf("%f",&rate);
+    printf("enter time:");
+    scanf("%f",&time);
+    printf("enter principal:");
+    scanf("%f",&principal);
+    simple= (principal * rate * time) / 100;
+    printf("Simple: %.2f\n", simple);
+    
+    return 0;
+}
