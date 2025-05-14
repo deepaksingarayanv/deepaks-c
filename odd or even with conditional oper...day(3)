@@ -1,0 +1,14 @@
+#include <stdlib.h>
+
+int main() {
+
+    int a;
+    scanf("%d ",&a);
+    if(a%2==0){
+        printf("EVEN");
+        }
+    else{
+        printf("ODD");
+    }/* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
