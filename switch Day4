@@ -20,6 +20,7 @@ int main()
         break;
         case 7:printf("Saturday");
         break;
+        default:printf("no day after 7");
         
     }
 
